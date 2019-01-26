@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> renders and matches the snapshot 1`] = `
+<WithStyles(Grid)
+  item={true}
+  sm={3}
+>
+  <WithStyles(Card)
+    className="Item-card-1"
+  >
+    <WithStyles(CardActionArea)
+      onClick={[Function]}
+    >
+      <WithStyles(CardMedia)
+        className="Item-media-2"
+        component="img"
+        image="dog.jpg"
+        title="A Cool Item"
+      />
+      <WithStyles(Typography)
+        className="Item-price-3 Item-color-4"
+        variant="h6"
+      >
+        $40
+      </WithStyles(Typography)>
+      <WithStyles(CardContent)>
+        <WithStyles(Typography)
+          className="Item-color-4"
+          component="h2"
+          gutterBottom={true}
+          variant="h5"
+        >
+          A Cool Item
+        </WithStyles(Typography)>
+        <WithStyles(Typography)
+          component="p"
+        >
+          This item is really cool!
+        </WithStyles(Typography)>
+      </WithStyles(CardContent)>
+    </WithStyles(CardActionArea)>
+    <WithStyles(CardActions)
+      className="Item-actions-5"
+    >
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+        size="small"
+      >
+        Edit
+      </WithStyles(Button)>
+      <AddToCart
+        id="ABC123"
+      />
+      <DeleteItem
+        id="ABC123"
+      >
+        Delete
+      </DeleteItem>
+    </WithStyles(CardActions)>
+  </WithStyles(Card)>
+</WithStyles(Grid)>
+`;

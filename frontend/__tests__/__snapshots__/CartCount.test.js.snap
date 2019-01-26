@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartCount /> matches the snapshot 1`] = `
+<TransitionGroup
+  childFactory={[Function]}
+  className="CartCount-root-1"
+  component="div"
+>
+  <CSSTransition
+    className="count"
+    classNames="count"
+    key="10"
+    timeout={400}
+    unmountOnExit={true}
+  >
+    <WithStyles(Chip)
+      classes={
+        Object {
+          "root": "CartCount-chip-2",
+        }
+      }
+      color="secondary"
+      label={10}
+    />
+  </CSSTransition>
+</TransitionGroup>
+`;
+
+exports[`<CartCount /> updates via props 1`] = `
+<TransitionGroup
+  childFactory={[Function]}
+  className="CartCount-root-1"
+  component="div"
+>
+  <CSSTransition
+    className="count"
+    classNames="count"
+    key="50"
+    timeout={400}
+    unmountOnExit={true}
+  >
+    <WithStyles(Chip)
+      classes={
+        Object {
+          "root": "CartCount-chip-2",
+        }
+      }
+      color="secondary"
+      label={50}
+    />
+  </CSSTransition>
+</TransitionGroup>
+`;
+
+exports[`<CartCount /> updates via props 2`] = `
+<TransitionGroup
+  childFactory={[Function]}
+  className="CartCount-root-1"
+  component="div"
+>
+  <CSSTransition
+    className="count"
+    classNames="count"
+    key="10"
+    timeout={400}
+    unmountOnExit={true}
+  >
+    <WithStyles(Chip)
+      classes={
+        Object {
+          "root": "CartCount-chip-2",
+        }
+      }
+      color="secondary"
+      label={10}
+    />
+  </CSSTransition>
+</TransitionGroup>
+`;
